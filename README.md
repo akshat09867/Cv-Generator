@@ -1,16 +1,37 @@
-# React + Vite
+# CV Generator Application 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React application that allows users to create professional CVs by filling out simple forms. The app guides users through three intuitive steps to collect personal, educational, and professional information, then generates a clean, well-formatted CV.
 
-Currently, two official plugins are available:
+## 🌟 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live application here:  
+**[https://prismatic-speculoos-655194.netlify.app/](https://prismatic-speculoos-655194.netlify.app/)**
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Step-by-Step Form Wizard**: Easy-to-follow three-step process
+- **Real-time Preview**: Instant CV generation as you type
+- **Professional Templates**: Clean, modern CV layout
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile
+- **Form Validation**: Ensures all necessary information is provided
+- **No Registration Required**: Start creating your CV immediately
 
-## Expanding the ESLint configuration
+## 🛠️ Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React 18
+- **Routing**: React Router DOM
+- **Styling**: CSS3 with modern design principles
+- **Deployment**: Netlify
+- **Version Control**: Git & GitHub
+
+## 📋 Application Flow
+
+1. **Personal Information** 
+   - Name, Gender, Phone Number
+2. **Educational Experience**
+   - School Name, Study Title, Dates
+3. **Practical Experience**
+   - Company Details, Position, Responsibilities, Employment Dates
+4. **CV Preview**
+   - Generated CV with all provided information
+
