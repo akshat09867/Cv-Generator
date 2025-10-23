@@ -5,7 +5,7 @@ A modern, responsive React application that allows users to create professional 
 ## 🌟 Live Demo
 
 Check out the live application here:  
-**[https://prismatic-speculoos-655194.netlify.app/](https://prismatic-speculoos-655194.netlify.app/)**
+**[Cv-Generator](https://prismatic-speculoos-655194.netlify.app/)**
 
 ## ✨ Features
 
