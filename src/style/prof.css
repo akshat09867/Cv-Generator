@@ -1,0 +1,128 @@
+.prac {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.prac h3 {
+  color: #1f2937;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #3b82f6;
+}
+
+.prac span {
+  display: inline-block;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.prac input[type="text"],
+.prac input[type="date"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.prac input[type="text"]:focus,
+.prac input[type="date"]:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.prac textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 100px;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.prac textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.prac input[type="date"] {
+  cursor: pointer;
+}
+
+.prac input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 4px;
+}
+
+.prac + a {
+  display: block;
+  max-width: 200px;
+  margin: 2rem auto;
+  background: #10b981;
+  color: white;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(16, 185, 129, 0.3);
+}
+
+.prac + a:hover {
+  background: #059669;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(16, 185, 129, 0.4);
+}
+
+.prac + a:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .prac {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .prac h3 {
+    font-size: 1.25rem;
+  }
+}
+
+.prac input:not(:placeholder-shown) {
+  border-color: #10b981;
+}
+
+.prac textarea:not(:placeholder-shown) {
+  border-color: #10b981;
+}
+
+.prac span {
+  transition: color 0.3s ease;
+}
+
+.prac input:focus + span,
+.prac textarea:focus + span {
+  color: #3b82f6;
+}

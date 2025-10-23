@@ -1,0 +1,97 @@
+.edu {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.edu h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.edu span {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  opacity: 0.95;
+}
+
+.edu input[type="text"],
+.edu input[type="date"] {
+  width: 100%;
+  padding: 0.875rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.edu input[type="text"]:focus,
+.edu input[type="date"]:focus {
+  outline: none;
+  background: white;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.LToPro {
+  display: block;
+  width: 100%;
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.LToPro:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .edu {
+    margin: 1rem;
+    padding: 2rem;
+  }
+  
+  .edu h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.edu input[type="date"] {
+  cursor: pointer;
+}
+
+.edu input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 4px;
+  background: rgba(102, 126, 234, 0.8);
+}
+
+.edu a{
+    width: 560px;
+}
